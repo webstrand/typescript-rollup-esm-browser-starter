@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "tsc && rollup -c rollup.config.mjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "konva": "^9.0.1",
+    "rollup": "^3.20.6",
+    "typescript": "^5.0.4"
+  }
+}
